@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --btn-clr: #ff5959;
+    --btn-pad: .4rem .7rem;
+    --lowOp: rgba(0, 0, 0, 0.681);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.p {
+    padding: .8rem;
+}
+
+.btn {
+    background-color: var(--btn-clr);
+    padding: var(--btn-pad);
+    border: none;
+    color: white;
+}
+
+@media screen and (max-width: 540px) {
+
+    .p {
+        padding: 0 1rem;
+    }
+
+    .donate-headline p {
+        padding: 0px ;
+    }
+
+    .plan-main {
+        flex-direction: column;
+    }
+
+    .plan-head p {
+        padding: 0;
+    }
+
+    .donate-block-1,
+    .donate-block-2 {
+        flex-direction: column;
+    }
+
+    .donate-block-1-l,
+    .donate-block-1-r,
+    .donate-block-2-l,
+    .donate-block-2-r {
+        width: 100%;
+    }
+
+    .donate-block-1-r {
+        order: 1;
+    }
+
+    .donate-block-1-l {
+        order: 2;
+    }
+
+    .update-sec {
+        width: 100%;
+        padding: 0 1rem;
+    }
+}

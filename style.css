@@ -1,0 +1,255 @@
+/* header section start  */
+
+.donate-header {
+    text-align: center;
+    background: url('https://github.com/ProgrammingHero1/donate-today/blob/main/images/donation13.jpg?raw=true') no-repeat center;
+    background-size: 100% 100%;
+    color: white;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 0;
+}
+
+.donate-header h1 {
+    text-transform: capitalize;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.bg {
+    background: rgb(18,18,18);
+    background: linear-gradient(0deg, rgba(18, 18, 18, 0.677) 0%, rgba(18, 18, 18, 0.359) 100%);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.donate-header-btn {
+    margin-top: 1rem;
+}
+
+/* header section end */
+
+
+/* main section start here */
+
+
+
+/* donate section start */
+
+.donate {
+    text-align: center;
+    margin: 3rem;
+}
+
+.donate-headline p {
+    padding: 0 32.5rem;
+    margin-top: .6rem;
+    font-size: .7rem;
+}
+
+.amount-sec {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin: 1rem auto;
+}
+
+.amount-sec h5 {
+    background-color: #ff595929;
+    padding: .6rem;   
+}
+
+.amount-active {
+    border: 1px solid var(--btn-clr);
+    background-color: #ff595975 !important;
+}
+
+.amount-input {
+    margin: 1.5rem auto 1rem;
+    width: 30%;
+}
+
+#amount {
+    padding: .4rem 0;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.137);
+}
+
+#amount::placeholder {
+    text-align: center;
+}
+
+#amount:focus {
+    outline: none;
+    text-align: center;
+}
+
+/* donate section end */
+
+
+/* plan start */
+
+.plan {
+    margin-top: 5rem 0;
+}
+
+.plan-head h2,
+.plan-head p {
+    text-align: center;
+}
+
+.plan-head p {
+    padding: 0 20rem;
+}
+
+.plan-main {
+    display: flex;
+    margin-top: 2.5rem;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.food,
+.shelter,
+.education {
+    padding: 2.5rem 1rem;
+}
+
+.food {
+    background-color: #edf5f6;
+}
+
+.shelter{
+    background-color: #ffeeee;
+}
+
+.education {
+    background-color: #FFF4D6;
+}
+
+.plan-headline h3 {
+    margin: 1rem 0;
+}
+
+.plan-desc {
+    font-size: .8rem;
+    color: var(--lowOp);
+}
+
+
+/* plan end */
+
+
+/* .donate-block-start */
+
+.donate-block-1,
+.donate-block-2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 0;
+}
+
+.donate-block-1-r img,
+.donate-block-2-r img {
+    width: 80%;
+}
+
+.donate-block-1-l,
+.donate-block-2-l {
+    padding: 1.5rem 2rem 1.5rem 0;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.donate-block-1-r,
+.donate-block-2-r  {
+    width: 50%;
+}
+
+.donate-block-1-l p,
+.donate-block-2-l p {
+    margin: .8rem 0;
+    font-size: .8rem;
+    color: var(--lowOp);
+}
+
+.donate-block-2-r {
+    order: 1;
+}
+
+.donate-block-2-l {
+    order: 2;
+    padding-right: 9%;
+}
+
+/* .donate-block-end */
+
+
+
+/* update section start */
+
+.update-sec {
+    margin: 3rem auto;
+    width: 40%;
+    text-align: center;
+}
+
+.update-head p {
+    font-size: .8rem;
+    color: var(--lowOp);
+}
+
+.subscribe {
+    background-color: #fff4d6;
+    padding: 2rem 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+#email {
+    border: none;
+    padding: var(--btn-pad);
+    background-color: #D9D9D9;
+}
+
+#email:focus {
+    outline: none;
+}
+/* update section end */
+
+
+/* main section end here */
+
+
+/* footer section start */
+
+.footer {
+    background-color: black;
+    text-align: center;
+    padding: 2rem;
+}
+
+.footer h2 {
+    color: var(--btn-clr);
+    font-family: cursive;
+    margin: 1rem 0;
+}
+
+.footer p {
+    font-size: .8rem;
+    color: rgba(255, 255, 255, 0.603);
+}
+
+/* footer section end */
+
+
